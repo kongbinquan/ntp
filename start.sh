@@ -1,5 +1,5 @@
 #!/bin/bash
-directory="/etc/ntp.conf"
+directory="/data/ntp.conf"
 if [ "$(ls $directory)" ]; then
 	/usr/sbin/ntpd -c /data/ntp.conf -p /tmp/ntpd.pid -d
 else
