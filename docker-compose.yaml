@@ -7,4 +7,4 @@ services:
     restart: always
     network_mode: "host"
     volumes: 
-        - /data/docker/ntp/ntp.conf:/etc/ntp.conf
+        - /data/docker/ntp/ntp.conf:/data/ntp.conf
